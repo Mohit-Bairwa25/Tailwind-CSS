@@ -1,0 +1,5 @@
+Create a css file "input.css", add it to your html and edit it with this content:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

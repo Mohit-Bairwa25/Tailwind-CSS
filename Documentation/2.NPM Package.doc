@@ -1,0 +1,27 @@
+Get Commands From Below Links
+https://tailwindcss.com/docs/installation/using-postcss
+
+npm install -D tailwindcss postcss autoprefixer
+Create node_modules
+
+npm instal vite
+It will Add Lines
+  "dependencies": {
+    "vite": "^5.4.1"
+  }
+
+
+npx tailwindcss init
+This  will Create a tailwind.config.js File
+In that file Change this 
+
+content: [],
+
+To This
+content: ["*"],
+
+Add VS Code Extension
+Tailwind CSS IntelliSense
+
+To Start The Page
+npm run start
