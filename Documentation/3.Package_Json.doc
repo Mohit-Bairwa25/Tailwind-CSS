@@ -32,3 +32,8 @@ Here
     "vite": "^5.4.1"
   }
 }
+
+
+Only After this Step the Page will run
+To Start The Page
+npm run start

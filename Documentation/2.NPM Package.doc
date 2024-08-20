@@ -22,6 +22,3 @@ content: ["*"],
 
 Add VS Code Extension
 Tailwind CSS IntelliSense
-
-To Start The Page
-npm run start
