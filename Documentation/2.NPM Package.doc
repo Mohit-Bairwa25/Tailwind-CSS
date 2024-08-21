@@ -11,8 +11,9 @@ It will Add Lines
   }
 
 
-npx tailwindcss init
-This  will Create a tailwind.config.js File
+npx tailwindcss init -p
+This  will Create a tailwind.config.js File &
+Created PostCSS config file: postcss.config.js
 In that file Change this 
 
 content: [],

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind UI Buttons</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8">
+    <h1 class="text-2xl font-bold mb-6">Tailwind UI Buttons</h1>
+
+    <!-- Primary Buttons -->
+    <h2 class="text-xl font-semibold mb-4">Primary Buttons</h2>
+    <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded">Primary</button>
+    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Hover</button>
+    <hr class="my-6">
+
+    <!-- Secondary Buttons -->
+    <h2 class="text-xl font-semibold mb-4">Secondary Buttons</h2>
+    <button class="bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded">Secondary</button>
+    <button class="bg-gray-300 hover:bg-gray-400 text-gray-700 font-bold py-2 px-4 rounded">Hover</button>
+    <hr class="my-6">
+
+    <!-- Buttons on Dark Background -->
+    <h2 class="text-xl font-semibold mb-4">Buttons on Dark Background</h2>
+    <div class="bg-gray-900 p-4">
+        <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded">Primary on Dark</button>
+        <button class="bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded">Secondary on Dark</button>
+    </div>
+    <hr class="my-6">
+
+    <!-- Soft Buttons -->
+    <h2 class="text-xl font-semibold mb-4">Soft Buttons</h2>
+    <button class="bg-blue-100 text-blue-600 font-bold py-2 px-4 rounded">Soft Blue</button>
+    <button class="bg-red-100 text-red-600 font-bold py-2 px-4 rounded">Soft Red</button>
+    <hr class="my-6">
+
+    <!-- Buttons with Icons -->
+    <h2 class="text-xl font-semibold mb-4">Buttons with Icons</h2>
+    <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M8 12l-4-4h8l-4 4zm4 0l4-4H8l4 4z"></path></svg>
+        Button with Leading Icon
+    </button>
+    <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+        Button with Trailing Icon
+        <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"><path d="M8 12l4-4H4l4 4z"></path></svg>
+    </button>
+    <hr class="my-6">
+
+    <!-- Rounded and Circular Buttons -->
+    <h2 class="text-xl font-semibold mb-4">Rounded and Circular Buttons</h2>
+    <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Rounded Full</button>
+    <button class="bg-green-600 text-white font-bold py-2 px-4 rounded-full w-10 h-10 flex items-center justify-center">+</button>
+    <hr class="my-6">
+    
+    <!-- Basic Button -->
+    <h2 class="text-xl font-semibold mb-4">Basic Button</h2>
+    <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Basic Button</button>
+    <hr class="my-6">
+
+    <!-- Button Sizes -->
+    <h2 class="text-xl font-semibold mb-4">Button Sizes</h2>
+    <button class="bg-blue-500 text-white font-bold py-1 px-2 rounded text-xs">Small</button>
+    <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Medium</button>
+    <button class="bg-blue-500 text-white font-bold py-3 px-6 rounded text-lg">Large</button>
+    <hr class="my-6">
+
+    <!-- Button Colors -->
+    <h2 class="text-xl font-semibold mb-4">Button Colors</h2>
+    <button class="bg-red-500 text-white font-bold py-2 px-4 rounded">Red</button>
+    <button class="bg-green-500 text-white font-bold py-2 px-4 rounded">Green</button>
+    <button class="bg-yellow-500 text-white font-bold py-2 px-4 rounded">Yellow</button>
+    <button class="bg-purple-500 text-white font-bold py-2 px-4 rounded">Purple</button>
+    <hr class="my-6">
+
+    <!-- Button with Icons -->
+    <h2 class="text-xl font-semibold mb-4">Button with Icons</h2>
+    <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7v14"></path></svg>
+        Add
+    </button>
+    <button class="bg-red-500 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14"></path></svg>
+        Remove
+    </button>
+    <hr class="my-6">
+
+    <!-- Button with Outline -->
+    <h2 class="text-xl font-semibold mb-4">Button with Outline</h2>
+    <button class="border border-blue-500 text-blue-500 font-bold py-2 px-4 rounded">Outlined</button>
+    <button class="border border-green-500 text-green-500 font-bold py-2 px-4 rounded">Outlined Green</button>
+    <hr class="my-6">
+
+    <!-- Button with Shadow -->
+    <h2 class="text-xl font-semibold mb-4">Button with Shadow</h2>
+    <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded shadow-lg">Button with Shadow</button>
+    <hr class="my-6">
+
+    <!-- Rounded and Full Width Buttons -->
+    <h2 class="text-xl font-semibold mb-4">Rounded and Full Width Buttons</h2>
+    <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full">Rounded Full</button>
+    <button class="bg-green-500 text-white font-bold py-2 px-4 rounded w-full mt-2">Full Width</button>
+    <hr class="my-6">
+
+    <!-- Disabled Button -->
+    <h2 class="text-xl font-semibold mb-4">Disabled Button</h2>
+    <button class="bg-gray-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed" disabled>Disabled</button>
+    <hr class="my-6">
+
+    <!-- Button with Hover Effects -->
+    <h2 class="text-xl font-semibold mb-4">Button with Hover Effects</h2>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Hover Me</button>
+    <hr class="my-6">
+
+    <!-- Button with Active State -->
+    <h2 class="text-xl font-semibold mb-4">Button with Active State</h2>
+    <button class="bg-green-500 active:bg-green-700 text-white font-bold py-2 px-4 rounded">Active State</button>
+    <hr class="my-6">
+
+    <!-- Button with Focus State -->
+    <h2 class="text-xl font-semibold mb-4">Button with Focus State</h2>
+    <button class="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300 text-white font-bold py-2 px-4 rounded">Focus Me</button>
+    <hr class="my-6">
+
+</body>
+</html>

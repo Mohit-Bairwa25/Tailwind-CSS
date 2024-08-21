@@ -1,0 +1,32 @@
+
+Layout Classes:
+.container: Centers and provides responsive padding.
+.container-fluid: Full-width container, spanning the entire width of the viewport.
+.row: Creates a horizontal group of columns.
+.col: Automatically sizes columns for equal-width columns.
+.col-{size}-{breakpoint}: Creates responsive columns (e.g., col-md-6).
+.d-{value}: Display utilities (d-block, d-flex, d-none, etc.).
+.justify-content-{value}: Justifies flexbox items (e.g., justify-content-center).
+.align-items-{value}: Aligns flexbox items (e.g., align-items-start).
+
+Typography Classes:
+.text-left, .text-center, .text-right: Text alignment.
+.text-muted: Muted/greyed-out text.
+.font-weight-{value}: Set font weight (e.g., font-weight-bold).
+.lead: Highlights introductory text with larger size and spacing.
+.h1, .h2, .h3, .h4, .h5, .h6: Heading styles.
+
+Spacing Classes:
+.m-{side}-{value}: Margin utilities (e.g., m-3, mt-2, mr-1, etc.).
+.p-{side}-{value}: Padding utilities (e.g., p-4, pb-2, etc.).
+
+Button Classes:
+.btn: Base button class.
+.btn-primary, .btn-secondary, .btn-success, .btn-danger: Button color styles.
+.btn-lg, .btn-sm: Button size.
+
+Utility Classes:
+.bg-{color}: Background color (e.g., bg-primary, bg-light).
+.border: Adds a border around an element.
+.rounded: Adds border-radius.
+.shadow-sm, .shadow-lg: Shadow effects.
