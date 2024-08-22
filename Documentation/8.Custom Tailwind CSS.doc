@@ -1,0 +1,29 @@
+npx tailwindcss init CustomTailwindCSS --full
+
+Created Tailwind CSS config file: CustomTailwindCSS
+
+npx tailwindcss -i ./input.css -o ./dist/output.css --watch
+Creates a dist folder with file output.css
+
+this in your tailwind.config.css file
+  theme: {
+    extend: {
+      spacing: {
+        13: '3.25rem',
+      },
+      fontSize: {
+        '10xl': ['10rem', { lineHeight: '1.2' }],
+      },
+    },
+  },
+
+  and this in your input.css file
+
+/* Testing custom classes */
+.mx-13 {
+    @apply mx-13;
+}
+  
+.text-10xl {
+    @apply text-10xl;
+}
