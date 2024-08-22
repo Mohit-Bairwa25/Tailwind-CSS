@@ -61,12 +61,19 @@
 
 
 /* Testing custom classes 
- COmment Below Part To Work Apply and Layer Directives 
+ Comment Below Part To Work Apply and Layer Directives 
 */
-/* .mx-13 {
+/* 
+.mx-13 {
     @apply mx-13;
-  }
+}
+.mx-15 {
+    @apply mx-15;
+}
   
-  .text-10xl {
+.text-10xl {
     @apply text-10xl;
-  } */
+}
+.text-11xl {
+    @apply text-11xl;
+} */

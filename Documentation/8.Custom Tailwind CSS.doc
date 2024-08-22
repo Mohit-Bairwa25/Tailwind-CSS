@@ -1,29 +1,46 @@
 npx tailwindcss init CustomTailwindCSS --full
 
 Created Tailwind CSS config file: CustomTailwindCSS
+This will tell you predefined custom values(which are avalable and which are not)
 
 npx tailwindcss -i ./input.css -o ./dist/output.css --watch
 Creates a dist folder with file output.css
+link your html file
+<link rel="stylesheet" href="../dist/output.css">
+
 
 this in your tailwind.config.css file
   theme: {
     extend: {
       spacing: {
         13: '3.25rem',
+        15: '3.75rem',
       },
       fontSize: {
         '10xl': ['10rem', { lineHeight: '1.2' }],
+        '11xl': ['11rem', { lineHeight: '1.4' }],
       },
     },
   },
 
-  and this in your input.css file
+And this in your input.css file
 
 /* Testing custom classes */
+
 .mx-13 {
     @apply mx-13;
+}
+.mx-15 {
+    @apply mx-15;
 }
   
 .text-10xl {
     @apply text-10xl;
 }
+.text-11xl {
+    @apply text-11xl;
+}
+
+Once You have Applied these Properties you can Re Comment Then They will not effect the output
+but if you use new classes add data in tailwind.css.config file and then input.css file then you can re comment
+this way apply directives files will not get effected

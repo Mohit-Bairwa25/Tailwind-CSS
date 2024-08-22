@@ -9,9 +9,11 @@ module.exports = {
     extend: {
       spacing: {
         13: '3.25rem',
+        15: '3.75rem',
       },
       fontSize: {
         '10xl': ['10rem', { lineHeight: '1.2' }],
+        '11xl': ['11rem', { lineHeight: '1.4' }],
       },
     },
   },
