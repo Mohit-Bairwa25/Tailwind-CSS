@@ -1,0 +1,21 @@
+In your package.json
+Add
+
+"build":"vite build"
+
+Here 
+
+  "scripts": {
+    "start": "vite"
+  },
+
+
+  "scripts": {
+    "start": "vite",
+    "build":"vite build"
+  },
+
+Then
+npm run build
+
+It will Create a dist folder with neccesary Files of your project
